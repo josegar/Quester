@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestFile>Alliance_1-58\Goldshire.cs</QuestFile>
+  <QuestsSorted>
+    <QuestsSorted Action="PickUp" NameClass="AFishyPeril" />
+	<QuestsSorted Action="TurnIn" NameClass="AFishyPeril" />
+    <QuestsSorted Action="PickUp" NameClass="GoldDustExchange" />
+    <QuestsSorted Action="PickUp" NameClass="TheFargodeepMine" />
+    <QuestsSorted Action="PickUp" NameClass="KoboldCandles" />
+    <QuestsSorted Action="Pulse" NameClass="TheFargodeepMine" />
+    <QuestsSorted Action="Pulse" NameClass="GoldDustExchange" />
+    <QuestsSorted Action="Pulse" NameClass="KoboldCandles" />
+    <QuestsSorted Action="TurnIn" NameClass="GoldDustExchange" />
+    <QuestsSorted Action="TurnIn" NameClass="TheFargodeepMine" />
+    <QuestsSorted Action="TurnIn" NameClass="KoboldCandles" />
+    <QuestsSorted Action="PickUp" NameClass="ShipmentToStormwind" />
+    <QuestsSorted Action="TurnIn" NameClass="ShipmentToStormwind" />
+    <QuestsSorted Action="PickUp" NameClass="WestbrookGarrisonNeedsHelp" />
+    <QuestsSorted Action="PickUp" NameClass="ReportToGryanStoutmantle" />
+    <QuestsSorted Action="TurnIn" NameClass="WestbrookGarrisonNeedsHelp" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="RiverpawGnollBounty" />
+    <QuestsSorted Action="LoadProfile" NameClass="Alliance_1-58\Westfall.xml" />
+      
+  </QuestsSorted>
+  <NpcQuest>
+    <NPCQuest Id="6774" Name="Inkeeper Farley" GameObject="false">
+      <PickUpQuests>
+        
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>2158</int>
+      </TurnInQuests>
+      <Position X="-9462.8" Y="-16.5" Z="57.3" Type="None" />
+    </NPCQuest>
+    
+    <NPCQuest Id="240" Name="Marshal Dughan" GameObject="false">
+      <PickUpQuests>
+        <int>62</int>
+        <int>239</int>
+        <int>109</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>54</int>
+        <int>62</int>
+        <int>40</int>
+      </TurnInQuests>
+      <Position X="-9465" Y="76.5" Z="56.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="963" Name="Deputy Rainer" GameObject="false">
+      <PickUpQuests>
+        <int>11</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>11</int>
+        <int>239</int>
+      </TurnInQuests>
+      <Position X="-9662.8" Y="694.5" Z="36.9" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="241" Name="Remy Two Times" GameObject="false">
+      <PickUpQuests>
+        <int>40</int>
+        <int>47</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>47</int>
+      </TurnInQuests>
+      <Position X="-9499" Y="66.5" Z="56.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="253" Name="William Pestle" GameObject="false">
+      <PickUpQuests>
+        <int>60</int>
+        <int>61</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>60</int>
+      </TurnInQuests>
+      <Position X="-9463" Y="31.5" Z="57.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="279" Name="Morgan Pestle" GameObject="false">
+      <PickUpQuests>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>61</int>
+      </TurnInQuests>
+      <Position X="-8857" Y="625.5" Z="96.3" Type="None" />
+    </NPCQuest>
+    
+  </NpcQuest>
+  <Npc />
+  
+
+  <Script>
+  </Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+</QuesterProfile>

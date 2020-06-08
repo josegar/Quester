@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestFile>Alliance_1-58\Westfall.cs</QuestFile>
+  <QuestsSorted>
+    <QuestsSorted Action="PickUp" NameClass="WestfallStew" />
+    <QuestsSorted Action="PickUp" NameClass="TheForgottenHeirloom" />
+    <QuestsSorted Action="PickUp" NameClass="PoorOldBlanchy" />
+    <QuestsSorted Action="TurnIn" NameClass="WestfallStew" />
+    <QuestsSorted Action="PickUp" NameClass="GoretuskLiverPie" />
+    <QuestsSorted Action="PickUp" NameClass="KillingFields" />
+    <QuestsSorted Action="Pulse" NameClass="GoretuskLiverPie" />
+    <QuestsSorted Action="Pulse" NameClass="PoorOldBlanchy" />
+    <QuestsSorted Action="Pulse" NameClass="KillingFields" />
+    <QuestsSorted Action="Pulse" NameClass="TheForgottenHeirloom" />
+    <QuestsSorted Action="TurnIn" NameClass="TheForgottenHeirloom" />
+    <QuestsSorted Action="TurnIn" NameClass="PoorOldBlanchy" />
+    <QuestsSorted Action="TurnIn" NameClass="KillingFields" />
+    <QuestsSorted Action="TurnIn" NameClass="GoretuskLiverPie" />
+    <QuestsSorted Action="TurnIn" NameClass="ReportToGryanStourmantle" />
+    <QuestsSorted Action="PickUp" NameClass="TheDefiasBrotherhoodOne" />
+    <QuestsSorted Action="TurnIn" NameClass="TheDefiasBrotherhoodOne" />
+    <QuestsSorted Action="LoadProfile" NameClass="Alliance_1-58\RedridgeMountains.xml" />
+    
+  </QuestsSorted>
+  <NpcQuest>
+   
+
+    <NPCQuest Id="237" Name="Farmer Furlbrow" GameObject="false">
+      <PickUpQuests>
+        <int>64</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>64</int>
+      </TurnInQuests>
+      <Position X="-9851" Y="918" Z="30.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="238" Name="Verna Furlbrow" GameObject="false">
+      <PickUpQuests>
+        <int>151</int>
+        <int>36</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>151</int>
+      </TurnInQuests>
+      <Position X="-9851" Y="918" Z="30.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="233" Name="Farmer Saldean" GameObject="false">
+      <PickUpQuests>
+        <int>9</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9</int>
+      </TurnInQuests>
+      <Position X="-10123" Y="1058.5" Z="36.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="235" Name="Salma Saldean" GameObject="false">
+      <PickUpQuests>
+        <int>22</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>36</int>
+        <int>22</int>
+      </TurnInQuests>
+      <Position X="-10112" Y="1042.5" Z="37.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="234" Name="Gryan Stoutmantle" GameObject="false">
+      <PickUpQuests>
+        <int>65</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>109</int>
+      </TurnInQuests>
+      <Position X="-10508.8" Y="1045.5" Z="60.3" Type="None" />
+    </NPCQuest>
+    
+    <NPCQuest Id="266" Name="WileyTheBlack" GameObject="false">
+      <PickUpQuests>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>65</int>
+      </TurnInQuests>
+      <Position X="-9231.8" Y="-2145.5" Z="71.3" Type="None" />
+    </NPCQuest>
+    
+    
+  </NpcQuest>
+  <Npc />
+  
+
+  <Script>
+  </Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+</QuesterProfile>

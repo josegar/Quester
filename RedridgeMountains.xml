@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestFile>Alliance_1-58\RedridgeMountains.cs</QuestFile>
+  <QuestsSorted>
+    <QuestsSorted Action="PickUp" NameClass="HilarysNecklace" />
+    <QuestsSorted Action="PickUp" NameClass="SellingFish" />
+    <QuestsSorted Action="PickUp" NameClass="MurlocPoachers" />
+    <QuestsSorted Action="Pulse" NameClass="HilarysNecklace" />
+    <QuestsSorted Action="Pulse" NameClass="SellingFish" />
+    <QuestsSorted Action="Pulse" NameClass="MurlocPoachers" />
+    <QuestsSorted Action="TurnIn" NameClass="HilarysNecklace" />
+    <QuestsSorted Action="TurnIn" NameClass="SellingFish" />
+    <QuestsSorted Action="TurnIn" NameClass="MurlocPoachers" />
+    <QuestsSorted Action="PickUp" NameClass="BlackrockBounty" />
+    <QuestsSorted Action="PickUp" NameClass="BlackrockMenace" />
+    <!-- <QuestsSorted Action="PickUp" NameClass="WantedGathIlzogg" /> -->
+    <QuestsSorted Action="PickUp" NameClass="SolomonsLaw" />
+    <QuestsSorted Action="PickUp" NameClass="WantedLieutenantFangore" />
+    <QuestsSorted Action="PickUp" NameClass="AnUnwelcomeGuest" />
+    <QuestsSorted Action="Pulse" NameClass="BlackrockBounty" />
+    <QuestsSorted Action="Pulse" NameClass="BlackrockMenace" />
+    <!-- <QuestsSorted Action="Pulse" NameClass="WantedGathIlzogg" /> -->
+    <QuestsSorted Action="Pulse" NameClass="SolomonsLaw" />
+    <QuestsSorted Action="Pulse" NameClass="WantedLieutenantFangore" />
+    <QuestsSorted Action="Pulse" NameClass="AnUnwelcomeGuest" />
+    <QuestsSorted Action="TurnIn" NameClass="BlackrockBounty" />
+    <QuestsSorted Action="TurnIn" NameClass="BlackrockMenace" />
+   <!-- <QuestsSorted Action="TurnIn" NameClass="WantedGathIlzogg" /> -->
+    <QuestsSorted Action="TurnIn" NameClass="SolomonsLaw" />
+    <QuestsSorted Action="TurnIn" NameClass="WantedLieutenantFangore" />
+    <QuestsSorted Action="TurnIn" NameClass="AnUnwelcomeGuest" />
+
+
+
+  </QuestsSorted>
+  <NpcQuest>
+
+    <NPCQuest Id="234" Name="Gryan Stoutmantle" GameObject="false">
+      <PickUpQuests>
+        <int>65</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>109</int>
+      </TurnInQuests>
+      <Position X="-10508.8" Y="1045.5" Z="60.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="903" Name="Guard Howe" GameObject="false">
+      <PickUpQuests>
+        <int>128</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>128</int>
+      </TurnInQuests>
+      <Position X="-9412" Y="-2255" Z="67.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="342" Name="Martie Jainrose" GameObject="false">
+      <PickUpQuests>
+        <int>34</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>34</int>
+      </TurnInQuests>
+      <Position X="-9245.8" Y="-2045.5" Z="77.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="381" Name="Dockmaster Baren" GameObject="false">
+      <PickUpQuests>
+        <int>127</int>
+        <int>150</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>127</int>
+        <int>150</int>
+      </TurnInQuests>
+      <Position X="-9261.8" Y="-2174.5" Z="64.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="900" Name="Bailiff Conacher" GameObject="false">
+      <PickUpQuests>
+        <int>91</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>91</int>
+      </TurnInQuests>
+      <Position X="-9217.8" Y="-2223.5" Z="67.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="344" Name="Magistrate Solomon" GameObject="false">
+      <PickUpQuests>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>169</int>
+        <int>180</int>
+      </TurnInQuests>
+      <Position X="-9217.8" Y="-2223.5" Z="67.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="382" Name="Marshal Marris" GameObject="false">
+      <PickUpQuests>
+        <int>20</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>20</int>
+      </TurnInQuests>
+      <Position X="-9284.8" Y="-2298.5" Z="67.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="60" Name="Wanted: Gath'Ilzogg" GameObject="true">
+      <PickUpQuests>
+        <int>169</int>
+      </PickUpQuests>
+      <Position X="-9243.8" Y="-2213.5" Z="67.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="47" Name="Wanted: Lieutenant Fangore" GameObject="true">
+      <PickUpQuests>
+        <int>180</int>
+      </PickUpQuests>
+      <Position X="-9247.8" Y="-2151.5" Z="63.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="8965" Name="Shawn" GameObject="false">
+      <PickUpQuests>
+        <int>3741</int>
+      </PickUpQuests>
+      <Position X="-9351" Y="-2207" Z="61.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="8962" Name="Hilary" GameObject="false">
+      <TurnInQuests>
+        <int>3741</int>
+      </TurnInQuests>t
+      <Position X="-9351" Y="-2207" Z="61.3" Type="None" />
+    </NPCQuest>
+    
+    
+  </NpcQuest>
+  <Npc />
+  
+
+  <Script>
+  </Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+</QuesterProfile>

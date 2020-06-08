@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestFile>Alliance_1-58\HumanStarter.cs</QuestFile>
+  <QuestsSorted>
+    <QuestsSorted Action="PickUp" NameClass="AThreatWithin" />
+    <QuestsSorted Action="TurnIn" NameClass="AThreatWithin" />
+    <QuestsSorted Action="PickUp" NameClass="KoboldCampCleanup" />
+    <QuestsSorted Action="PickUp" NameClass="EaganPeltskinner" />
+    <QuestsSorted Action="TurnIn" NameClass="EaganPeltskinner" />
+    <QuestsSorted Action="PickUp" NameClass="WolvesAcrossTheBorder" />
+    <QuestsSorted Action="Pulse" NameClass="WolvesAcrossTheBorder" />
+    <QuestsSorted Action="TurnIn" NameClass="WolvesAcrossTheBorder" />
+    <QuestsSorted Action="Pulse" NameClass="KoboldCampCleanup" />
+    <QuestsSorted Action="TurnIn" NameClass="KoboldCampCleanup" />
+    <QuestsSorted Action="PickUp" NameClass="InvestigateEchoRidge" />
+    <QuestsSorted Action="Pulse" NameClass="InvestigateEchoRidge" />
+    <QuestsSorted Action="TurnIn" NameClass="InvestigateEchoRidge" />
+    <QuestsSorted Action="PickUp" NameClass="SkirmishAtEchoRidge" />
+    <QuestsSorted Action="Pulse" NameClass="SkirmishAtEchoRidge" />
+    <QuestsSorted Action="TurnIn" NameClass="SkirmishAtEchoRidge" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level &lt; 6" />
+    <QuestsSorted Action="RunLuaCode" NameClass="DEFAULT_CHAT_FRAME:AddMessage(&quot;Grinding to level 6&quot;)" />
+    <QuestsSorted Action="None" NameClass="wManager.wManagerSetting.CurrentSetting.TrainNewSkills = false;" />
+    <QuestsSorted Action="LoadProfile" NameClass="Alliance_1-58\Jose.xml" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.CurrentSetting.TrainNewSkills = true;" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <!--  <QuestsSorted Action="PickUp" NameClass="ReportToGoldshire" />
+    <QuestsSorted Action="PickUp" NameClass="RestAndRelaxion" />
+    <QuestsSorted Action="TurnIn" NameClass="RestAndRelaxion" />
+    <QuestsSorted Action="TurnIn" NameClass="ReportToGoldshire" />
+    <QuestsSorted Action="LoadProfile" NameClass="Alliance_1-58\Goldshire.xml" />
+	-->
+  </QuestsSorted>
+  
+  <NpcQuest>
+    <NPCQuest Id="823" Name="Deputy Willem" GameObject="false">
+      <PickUpQuests>
+        <int>783</int>
+        <int>5261</int>
+      </PickUpQuests>
+      <Position X="-8933.8" Y="-136.5" Z="83.3" Type="None" />
+    </NPCQuest>
+
+      <NPCQuest Id="196" Name="Eagan Peltskinner" GameObject="false">
+        <PickUpQuests>
+          <int>33</int>
+        </PickUpQuests>
+        <TurnInQuests>
+          <int>5261</int>
+          <int>33</int>
+        </TurnInQuests>
+        <Position X="-8869" Y="-163.5" Z="80.3" Type="None" />
+      </NPCQuest>
+
+    <NPCQuest Id="197" Name="Marshal McBride" GameObject="false">
+    <PickUpQuests>
+      <int>7</int>
+      <int>15</int>
+      <int>21</int>
+      <int>54</int>
+	  <int>3101</int>
+    </PickUpQuests>
+    <TurnInQuests>
+      <int>783</int>
+      <int>7</int>
+      <int>15</int>
+      <int>21</int>
+    </TurnInQuests>
+    <Position X="-8902" Y="-162.5" Z="81.9" Type="None" />
+    </NPCQuest>
+	
+    <NPCQuest Id="925" Name="Brother Samuel" GameObject="false">
+    <PickUpQuests>
+    </PickUpQuests>
+    <TurnInQuests>
+      <int>3101</int>
+    </TurnInQuests>
+    <Position X="-8914.57" Y="-215.016" Z="82.11655" />
+    </NPCQuest>
+
+    <NPCQuest Id="6774" Name="Falkhaan Isenstrider" GameObject="false">
+      <PickUpQuests>
+        <int>2158</int>
+      </PickUpQuests>
+      <Position X="-9044.8" Y="-46.5" Z="88.3" Type="None" />
+    </NPCQuest>
+
+    <NPCQuest Id="295" Name="Inkeeper Farley" GameObject="false">
+      <PickUpQuests>
+      </PickUpQuests>
+        <TurnInQuests>
+          <int>2158</int>
+        </TurnInQuests>
+      
+      <Position X="-9462.8" Y="-16.5" Z="57.3" Type="None" />
+    </NPCQuest>
+    
+    <NPCQuest Id="240" Name="Marshal Dughan" GameObject="false">
+      <PickUpQuests>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>54</int>
+      </TurnInQuests>
+      <Position X="-9465.1" Y="76.5" Z="56.3" Type="None" />
+    </NPCQuest>
+    
+  </NpcQuest>
+  
+  <Script>
+  </Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+  
+
+</QuesterProfile>
